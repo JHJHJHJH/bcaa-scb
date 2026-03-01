@@ -15,6 +15,7 @@ import { week7Slides, week7TotalSlides as week7Total, getWeek7SlideById } from '
 import { week8Slides, week8TotalSlides as week8Total, getWeek8SlideById } from './slides/Week8Registry';
 import { week9Slides, week9TotalSlides as week9Total, getWeek9SlideById } from './slides/Week9Registry';
 import { week10Slides, week10TotalSlides as week10Total, getWeek10SlideById } from './slides/Week10Registry';
+import { week11Slides, week11TotalSlides as week11Total, getWeek11SlideById } from './slides/Week11Registry';
 import { SlideData } from './slides/types';
 import { BaseSlide } from './slides/components/BaseSlide';
 import { CodeBlock } from './slides/components/CodeBlock';
@@ -35,6 +36,7 @@ const WEEKS = [
   { id: 8, name: 'Week 8', title: 'Dictionaries & BIM Data', slides: week8Slides, total: week8Total, getSlide: getWeek8SlideById },
   { id: 9, name: 'Week 9', title: 'Functions & Modular Processing', slides: week9Slides, total: week9Total, getSlide: getWeek9SlideById },
   { id: 10, name: 'Week 10', title: 'File I/O & JSON', slides: week10Slides, total: week10Total, getSlide: getWeek10SlideById },
+  { id: 11, name: 'Week 11', title: 'Error Handling & Validation', slides: week11Slides, total: week11Total, getSlide: getWeek11SlideById },
 ];
 
 // Slide type icon mapping
