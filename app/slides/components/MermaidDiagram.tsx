@@ -60,6 +60,7 @@ export function MermaidDiagram({ chart, caption }: MermaidDiagramProps) {
       <div
         ref={containerRef}
         className="flex justify-center p-6 bg-white rounded-lg border border-slate-200 shadow-sm"
+        style={{ minWidth: '900px', minHeight: '500px' }}
         dangerouslySetInnerHTML={{ __html: svg }}
       />
       {caption && (
