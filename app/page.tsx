@@ -4,7 +4,7 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useKeyboardNav } from './hooks/useKeyboardNav';
 import { useNotesWindow } from './hooks/useNotesWindow';
-import { slides as week0Slides, totalSlides as week0Total, getSlideById as getWeek0Slide } from './slides/SlideRegistry';
+import { slides as week0Slides, totalSlides as week0Total, getSlideById as getWeek0Slide } from './slides/Week0Registry';
 import { week1Slides, week1TotalSlides as week1Total, getWeek1SlideById } from './slides/Week1Registry';
 import { week2Slides, week2TotalSlides as week2Total, getWeek2SlideById } from './slides/Week2Registry';
 import { week3Slides, week3TotalSlides as week3Total, getWeek3SlideById } from './slides/Week3Registry';
